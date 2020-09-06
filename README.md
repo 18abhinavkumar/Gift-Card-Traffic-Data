@@ -13,6 +13,8 @@ The data given represents the number of gift-card transactions made per day from
 The aim is to find a suitable model for forecasting the future traffic data, i.e. number of transactions made per day from 9th July 2019 to 6th September 2020.
 
 ### Dataset
+<img src = "https://github.com/18abhinavkumar/Gift-Card-Traffic-Data/blob/master/Screenshots/Dataset_head.PNG">
+
 The data provided has two fields:
 1) _Date_: 
     * String Object type
@@ -21,6 +23,24 @@ The data provided has two fields:
 2) _Transaction Count_:
     * Integer type
     * Number of transactions made per day
+    
+### Exploratory Data Analysis
+
+- The trends in the data were observed as follows:
+<img src = "https://github.com/18abhinavkumar/Gift-Card-Traffic-Data/blob/master/Screenshots/Transaction_Count_per_day(2016-2019).PNG">
+
+- Monthly Analysis for the same is as follows:
+    - Transaction Count per month for 2016   
+      <img src = "https://github.com/18abhinavkumar/Gift-Card-Traffic-Data/blob/master/Screenshots/Transaction_Count_per_month_2016.PNG">
+   
+    - Transaction Count per month for 2017   
+      <img src = "https://github.com/18abhinavkumar/Gift-Card-Traffic-Data/blob/master/Screenshots/Transaction_Count_per_month_2017.PNG">
+   
+    - Transaction Count per month for 2018   
+      <img src = "https://github.com/18abhinavkumar/Gift-Card-Traffic-Data/blob/master/Screenshots/Transaction_Count_per_month_2018.PNG">
+   
+    - Transaction Count per month for 2019   
+      <img src = "https://github.com/18abhinavkumar/Gift-Card-Traffic-Data/blob/master/Screenshots/Transaction_Count_per_month_2019.PNG">
     
 ## Models Used
 
