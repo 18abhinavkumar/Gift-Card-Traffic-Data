@@ -6,11 +6,29 @@ Input Data: https://pastebin.com/F4g5dmnn
 Required outcome:
 - Based on the data provided, assert & recommend the model which will be most suitable to do forecasting for the traffic (number of transactions per day).
 - Share the outcome in the same format as the input file & also provide a graph for the upcoming traffic projection.
-- It will be helpful to review the code & data in a github repository - please commit the notebooks to git & provide link to that if possible
 
 ## Introduction
 
-The data provided has two fields, _Date_ and _Transaction Count_'. It ranges from 01-01-2016 to 08-07-2019. 
+The data given represents the number of gift-card transactions made per day from 1st January 2016 to 8th July 2019.
+The aim is to find a suitable model for forecasting the future traffic data, i.e. number of transactions made per day from 9th July 2019 to 6th September 2020.
+
+### Dataset
+The data provided has two fields:
+1) _Date_: 
+    * String Object type
+    * It ranges from 01-01-2016 to 08-07-2019
+    * Format: %d-%m-%Y %H-%M
+2) _Transaction Count_:
+    * Integer type
+    * Number of transactions made per day
+    
+## Models Used
+
+### Linear Regression
+Linear regression attempts to model the relationship between variables by fitting a linear equation to observed data. One variable is considered to be a dependent variable, and the others are considered to be explanatory variables.
+
+### ARIMA (Autoregressive Integrated Moving Average Model)
+ARIMA is actually a class of models that ‘explains’ a given time series based on its own past values, that is, its own lags and the lagged forecast errors, so that equation can be used to forecast future values.
 
 ## References
 
